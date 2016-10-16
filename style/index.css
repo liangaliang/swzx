@@ -8,12 +8,18 @@ body {
 ul{
 	list-style: none;
 	margin:10px 0 0 20px;
-	font-family : 微软雅黑,宋体;
-	font-size : 1.3em;
+	font-family : fangsong;
+	font-size : 1.5em;
 	
 }
 a{
 	text-decoration: none;
+}
+font{
+	margin:10px 0 0 20px;
+	color:#00dd00;
+	font-size:30px;
+	font-style:italic;
 }
 #banner{
 	width:70%;

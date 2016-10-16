@@ -11,13 +11,13 @@
 <img src="images/1.jpg" height=265px width=76%></img>
 <div id="banner">
 <div class="dropdown">
-  <button class="dropbtn"><a href="index.html">回到主页</a></button>
+  <button class="dropbtn" onclick="f1('index.html')"><a href="index.html">回到主页</a></button>
 </div>
 <div class="dropdown">
-  <button class="dropbtn"><a href="chuangkou.html">窗口服务</a></button>
+  <button class="dropbtn" onclick="f1('chuangkou.html')"><a href="chuangkou.html">窗口服务</a></button>
 </div>
 <div class="dropdown">
-  <button class="dropbtn"><a href="zizhu.html">自助服务</a></button>
+  <button class="dropbtn" onclick="f1('zizhu.html')"><a href="zizhu.html">自助服务</a></button>
   <div class="dropdown-content">
     <a href="#"> 1</a>
     <a href="#"> 2</a>
@@ -25,7 +25,7 @@
   </div>
 </div>
 <div class="dropdown">
-  <button class="dropbtn"><a href="chaxun.html">查询服务</a></button>
+  <button class="dropbtn" onclick="f1('chaxun.html')"><a href="chaxun.html">查询服务</a></button>
   <div class="dropdown-content">
     <a href="#"> 1</a>
     <a href="#"> 2</a>
@@ -33,63 +33,63 @@
   </div>
 </div>
 <div class="dropdown">
-  <button class="dropbtn"><a href="about.html">关于我们</a></button>
+  <button class="dropbtn" onclick="f1('about.html')"><a href="about.html">关于我们</a></button>
 </div>
 </div>
 <br>
 	<div id="container">
 		<div id="left">
 			<div id="shiwu">
-			<font color="#00dd00" font size="6">事务服务</font><br />
+			<img src="images/sw.png" height=70px width=100%></img><br />
 				<div id="left1">
 				<ul>
-					<li><a href="#">校团委</a></li>
+					<li><img src="images/zy.png"><a href="#">后勤集团</a></img></li>
 					<br>
-					<li>学工处</li>
+					<li><img src="images/zy.png">国际学院</img></li>
 					<br>
-					<li>研究生院（部）</li>
+					<li><img src="images/zy.png">研究生院</img></li>
 					<br>
-					<li>现代教育技术中心</li>
+					<li><img src="images/zy.png">就业创业办公室</img></li>
 					<br>
-					<li>就业创业办公室</li>
+					<li><img src="images/zy.png">现代教育技术中心</img></li>
 					<br>
 				</ul>
 				</div>
 				<div id="right1">
 				<ul>
-					<li>后勤集团</li>
+					<li><img src="images/zy.png">校团委</img></li>
 					<br>
-					<li>国际学院</li>
+					<li><img src="images/zy.png">学工处</img></li>
 					<br>
-					<li>校医院</li>
+					<li><img src="images/zy.png">校医院</img></li>
 					<br>
-					<li>教务处</li>
+					<li><img src="images/zy.png">教务处</img></li>
 					<br>
 				</ul>
 				</div>
 			</div>
 			<br>
 			<div id="chaxun">
-			<font color="#00dd00" font size="6">查询服务</font><br />
+			<img src="images/cx.png" height=70px width=100%></img><br />
 				<ul>
-					<li><h3><a href="#">校园卡</a></h3></li>
+					<li><img src="images/zy.png"><a href="#">校园卡</a></img></li>
 					
-					<li><h3>开水卡</h3></li>
+					<li><img src="images/zy.png">开水卡</img></li>
 				
-					<li><h3>银行卡</h3></li>
+					<li><img src="images/zy.png">银行卡</img></li>
 					
-					<li><h3>寝室电费</h3></li>
+					<li><img src="images/zy.png">寝室电费</img></li>
 					
-					<li><h3>more</h3></li>
+					<li><img src="images/zy.png">more</img></li>
 				</ul>
 			</div>
 			<br>
 			<div id="zizhu">
-			<font color="#00dd00" font size="6">自助服务</font><br />
+			<img src="images/zz.png" height=70px width=100%></img><br />
 				<ul>
-					<li><h3><a href="#">成绩单自助打印</a></h3></li>
-					<li><h3>自助借教室</h3></li>
-					<li><h3>more</h3></li>
+					<li><img src="images/zy.png"><a href="#">成绩单自助打印</a></img></li>
+					<li><img src="images/zy.png">自助借教室</img></li>
+					<li><img src="images/zy.png">more</img></li>
 				</ul>
 			</div>
 			<br>
@@ -121,7 +121,7 @@
 
 			<div id="news">
 			<br>
-			<font color="#00dd00" font size="6">新闻||公告</font><br><br>
+			<img src="images/news.png" height=70px width=100%></img><br><br>
 				<ul>
 					<li><a href="#">关于华中农业大学学生事务服务中心</a></li>
 					<br>
@@ -137,7 +137,7 @@
 			</div>
 			<div id="link">
 				<br>
-				<font color="#00dd00" font size="6">友情链接</font><br><br><br>
+				<img src="images/link1.png" height=70px width=100%></img><br><br><br>
 				<img src="images/logo.png" height=65px width=76% title="华农官网"></img>
 				<br><br>
 				<img src="images/lib.png" height=65px width=76% title="华农图书馆"></img>
@@ -156,6 +156,10 @@
 		// 初始化轮播
 			$("#myCarousel").carousel('cycle');
 	});
+	function f1(url){
+	  //alert(url);
+	  window.location.href=url;
+	}
 </script>
 </body>
 </html>

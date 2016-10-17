@@ -32,11 +32,11 @@ font{
 }
 /* 下拉按钮样式 */
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #67BA42;
     color: white;
-    padding: 24%;
-    font-size: 15px;
-	height:30px;
+    padding: 15% 24%;
+    font-size: 18px;
+	height:65px;
     border: none;
     cursor: pointer;
 }
@@ -82,7 +82,7 @@ font{
 	/*background-color:#595243;*/
 	width: 76%;
     margin: 0px auto 0px auto;
-    height: 950px;
+    height: 1190px;
 }
 #left{
 	padding:0px 0px 0px 0px;
@@ -102,7 +102,7 @@ font{
 #shiwu{
 	background-color:#F4F2EC;
 	width: 100%;
-    height: 400px;
+    height: 580px;
 }
 #left1{
 	padding:0px 0px 0px 0px;
@@ -120,21 +120,37 @@ font{
     height: 350px;
 	
 }
+#left2{
+	padding:0px 0px 0px 0px;
+	/*background-color:#00BFFF;*/
+	width: 50%;
+    float:left;
+    height: 150px;
+	
+}
+#right2{
+	padding:0px 0px 0px 0px;
+	/*background-color:#00BFFF;*/
+	width: 50%;
+    float:left;
+    height: 150px;
+	
+}
 #chaxun{
 	background-color:#F4F2EC;
 	width: 100%;
-    height: 272px;
+    height: 270px;
 }
 #zizhu{
 	background-color:#F4F2EC;
 	width: 100%;
-    height: 200px;
+    height: 275px;
 }
 #image{
 	padding:0px 0px 0px 0px;
 	background-color:#555555;
 	width: 100%;
-    height: 410px;
+    height: 390px;
 }
 
 #news{
@@ -143,21 +159,21 @@ font{
 	text-align:left;
 	width: 70%;
     float:left;
-    height: 500px;
+    height: 775px;
 }
 #link{
 	padding:0px 0px 0px 0px;
 	background-color:#F4F2EC;
 	width: 28%;
     float:right;
-    height: 500px;
+    height: 775px;
 }
 #footer{
-	width:70%;
+	width:76%;
 	/*border:1px solid #000000;*/
 	padding:0px 0px 0px 30px;
 	background-color:#67BA42;
-	width: 73.7%;
+	
     margin: 0px auto 0px auto;
     height: 65px;
 	text-align:center;

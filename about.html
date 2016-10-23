@@ -5,41 +5,30 @@
 </head>
 <body>
 <style type="text/css"></style>
-<img src="images/1.jpg" height=265px width=76% ></img>
+<img src="images/11111.png" height=200px width=76%></img>
 <div id="banner">
 <div class="dropdown">
-  <button class="dropbtn"><a href="index.html">回到主页</a></button>
+  <button class="dropbtn" onclick="f1('index.html')"><a href="index.html">回到主页</a></button>
 </div>
 <div class="dropdown">
-  <button class="dropbtn"><a href="chuangkou.html">窗口服务</a></button>
+  <button class="dropbtn" onclick="f1('chuangkou.html')"><a href="chuangkou.html">窗口服务</a></button>
 </div>
 <div class="dropdown">
-  <button class="dropbtn"><a href="zizhu.html">自助服务</a></button>
-  <div class="dropdown-content">
-    <a href="#"> 1</a>
-    <a href="#"> 2</a>
-    <a href="#"> 3</a>
-  </div>
+  <button class="dropbtn" onclick="f1('zizhu.html')"><a href="zizhu.html">自助服务</a></button>
 </div>
 <div class="dropdown">
-  <button class="dropbtn"><a href="chaxun.html">查询服务</a></button>
-  <div class="dropdown-content">
-    <a href="#"> 1</a>
-    <a href="#"> 2</a>
-    <a href="#"> 3</a>
-  </div>
+  <button class="dropbtn" onclick="f1('chaxun.html')"><a href="chaxun.html">查询服务</a></button>
 </div>
 <div class="dropdown">
-  <button class="dropbtn"><a href="about.html">关于我们</a></button>
+  <button class="dropbtn" onclick="f1('about.html')"><a href="about.html">关于我们</a></button>
 </div>
 </div>
 <br>
 	<div id="container">
-		
-			<div id="par">
+		<div id="par">
 				<br>
 				<br>
-				<h1>关于华中农业大学学生事务服务中心</h1>
+				<h1>开水售卡窗口服务指南</h1><br>
 				<hr style="border:3px dotted #000 "/>
 				<br>
 				<pre>        对学校部门功能介绍、机构设置和规章制度等以及服务中心的工作内容的介绍,致力于对外展示华农的信息,
@@ -55,9 +44,15 @@
 		
 
 	
-<div id="footer">
-
-</div>
-
+<br>
+	<div id="footer" style="padding:10px 10px;">
+	<h4 >版权所有：华中农业大学学生事务大厅  技术支持：沸点工作室  <a href="__APP__/Admin/Login/index">管理</a>   </h4>
+	</div>
+<script>
+	function f1(url){
+	  //alert(url);
+	  window.location.href=url;
+	}
+</script>
 </body>
 </html>

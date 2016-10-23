@@ -8,63 +8,57 @@
 <img src="images/1.jpg" height=265px width=76%></img>
 <div id="banner">
 <div class="dropdown">
-  <button class="dropbtn"><a href="index.html">回到主页</a></button>
+  <button class="dropbtn" onclick="f1('index.html')"><a href="index.html">回到主页</a></button>
 </div>
 <div class="dropdown">
-  <button class="dropbtn"><a href="chuangkou.html">窗口服务</a></button>
+  <button class="dropbtn" onclick="f1('chuangkou.html')"><a href="chuangkou.html">窗口服务</a></button>
 </div>
 <div class="dropdown">
-  <button class="dropbtn"><a href="zizhu.html">自助服务</a></button>
-  <div class="dropdown-content">
-    <a href="#"> 1</a>
-    <a href="#"> 2</a>
-    <a href="#"> 3</a>
-  </div>
+  <button class="dropbtn" onclick="f1('zizhu.html')"><a href="zizhu.html">自助服务</a></button>
 </div>
 <div class="dropdown">
-  <button class="dropbtn"><a href="chaxun.html">查询服务</a></button>
-  <div class="dropdown-content">
-    <a href="#"> 1</a>
-    <a href="#"> 2</a>
-    <a href="#"> 3</a>
-  </div>
+  <button class="dropbtn" onclick="f1('chaxun.html')"><a href="chaxun.html">查询服务</a></button>
 </div>
 <div class="dropdown">
-  <button class="dropbtn"><a href="about.html">关于我们</a></button>
+  <button class="dropbtn" onclick="f1('about.html')"><a href="about.html">关于我们</a></button>
 </div>
 </div>
 <br>
 	<div id="container">
-		
-		
-			<div id="par">
+		<div id="par">
 				<br>
 				<br>
 				<h1>校团委</h1><br>
 				<hr style="border:3px dotted #000 "/>
-				<br><br>
+				<br>
 				<h3>事务咨询办理及服务：</h3><br>
-				<p>1.校内大学生创业扶持基金申请及经费报账咨询</p>
-				<p>2.大学生创业孵化基地入驻申请</p>
-				<p>3.创业赛事申报</p>
-				<p>4.大学生创业企业工商注册场地证明开具</p>
-				<p>5.青年志愿者协会相关事务办理</p>
-				<p>6.狮子山讲坛、国学讲坛、高雅艺术进校园等活动索票及查询</p>
-				<p>7.学生活动场地申请咨询</p>
+				<p align=left>1.校内大学生创业扶持基金申请及经费报账咨询</p>
+				<p align=left>2.大学生创业孵化基地入驻申请</p>
+				<p align=left>3.创业赛事申报</p>
+				<p align=left>4.大学生创业企业工商注册场地证明开具</p>
+				<p align=left>5.青年志愿者协会相关事务办理</p>
+				<p align=left>6.狮子山讲坛、国学讲坛、高雅艺术进校园等活动索票及查询</p>
+				<p align=left>7.学生活动场地申请咨询</p>
 
 				<br><br><h3>工作时间:</h3><br>
 				<p>上午：8:00——11:40 下午：2:30——6:00夏（秋）季</p>
 				<p>上午：8:00——11:40 下午：2:00——5:40冬（春）季</p>
 			</div>
 	
-		
 	</div>
-	
+	<br>
 <div id="footer" style="padding:10px 10px;">
-   
-    <h4 >版权所有：华中农业大学学生事务大厅  技术支持：沸点工作室  <a href="__APP__/Admin/Login/index">管理</a>   </h4>
+   <h4 >版权所有：华中农业大学学生事务大厅  技术支持：沸点工作室  <a href="__APP__/Admin/Login/index">管理</a>   </h4>
 </div>
-
-
+<script>
+	$(function(){
+		// 初始化轮播
+			$("#myCarousel").carousel('cycle');
+	});
+	function f1(url){
+	  //alert(url);
+	  window.location.href=url;
+	}
+</script>
 </body>
 </html>

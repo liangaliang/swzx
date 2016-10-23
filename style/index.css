@@ -9,34 +9,27 @@ ul{
 	list-style: none;
 	margin:10px 0 0 20px;
 	font-family : fangsong;
-	font-size : 1.5em;
-	
+	font-size : 1.5em;	
 }
 a{
 	text-decoration: none;
 }
-font{
-	margin:10px 0 0 20px;
-	color:#00dd00;
-	font-size:30px;
-	font-style:italic;
-}
 #banner{
-	width:70%;
+	width:76%;
 	/*border:1px solid #000000;*/
-	padding:0px 0px 0px 30px;
+	padding:0px 0px 0px 0px;
 	background-color:#67BA42;
-	width: 76%;
     margin: 0px auto 0px auto;
     height: 65px;
+	font-size:45px;	
 }
 /* 下拉按钮样式 */
 .dropbtn {
-    background-color: #67BA42;
+    background-color: #F4F2EC;
     color: white;
-    padding: 15% 24%;
-    font-size: 18px;
-	height:65px;
+    padding: 24%;
+    font-size: 15px;
+	height:30px;
     border: none;
     cursor: pointer;
 }
@@ -52,44 +45,28 @@ font{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #F4F2EC;
     min-width: 100%;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
 }
 
-/* 下拉菜单的链接 */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* 鼠标移上去后修改下拉菜单链接颜色 */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* 在鼠标移上去后显示下拉菜单 */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+/* 修改按钮的背景颜色 */
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: white;
 } 
 #container {
 	padding:0px 0px 0px 0px;
 	/*background-color:#595243;*/
 	width: 76%;
     margin: 0px auto 0px auto;
-    height: 990px;
+    height: 890px;
 }
 #left{
 	padding:0px 0px 0px 0px;
 	/*background-color:#FFFF00;*/
 	width: 34%;
     float:left;
-    height: 1200px;
+    height: 900px;
 	text-align:left;
 }
 #right{
@@ -97,7 +74,7 @@ font{
 	/*background-color:#00FFFF;*/
 	width: 65%;
     float:right;
-    height: 1200px;
+    height: 900px;
 }
 #shiwu{
 	background-color:#F4F2EC;

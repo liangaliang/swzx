@@ -27,7 +27,7 @@ a{
 }
 /* 下拉按钮样式 */
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #F4F2EC;
     color: white;
     padding: 24%;
     font-size: 15px;
@@ -47,37 +47,21 @@ a{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #F4F2EC;
     min-width: 100%;
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
 }
 
-/* 下拉菜单的链接 */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* 鼠标移上去后修改下拉菜单链接颜色 */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* 在鼠标移上去后显示下拉菜单 */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+/* 修改按钮的背景颜色 */
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: white;
 } 
 #container {
 	padding:0px 0px 0px 0px;
 	/*background-color:#595243;*/
 	width: 76%;
     margin: 0px auto 0px auto;
-    height: 950px;
+    height: 910px;
 }
 
 #par{
@@ -85,14 +69,36 @@ a{
 	background-color:#F4F2EC;
 	width: 100%;
     height: 910px;
+	
+	}
+#left{
+	padding:0px 0px 0px 0px;
+	background-color:#F4F2EC;
+	width: 48%;
+    height: 700px;
+	float:left;
+}
+#right{
+	padding:0px 0px 0px 0px;
+	background-color:#F4F2EC;
+	width: 48%;
+    height: 700px;
+	float:right;
+}
+
+#fenkuai{
+	padding:0px 0px 0px 0px;
+	background-color:#F4F2EC;
+	width: 80%;
+    height: 630px;
+	float:right;
 }
 
 #footer{
-	width:70%;
+	width:73.9%;
 	/*border:1px solid #000000;*/
 	padding:0px 0px 0px 30px;
 	background-color:#67BA42;
-	width: 73.7%;
     margin: 0px auto 0px auto;
-    height: 65px;
+    height: 45px;
 }

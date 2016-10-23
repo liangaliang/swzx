@@ -1,49 +1,37 @@
 ﻿<html>
 <head>
 <title>华中农业大学学生事务服务中心</title>
-	<link rel="stylesheet" href="style/chuangkou.css" />
+	<link rel="stylesheet" href="style/daohang.css" />
 </head>
 <body>
 <style type="text/css"></style>
-<img src="images/1.jpg" height=265px width=76%></img>
+<img src="images/11111.png" height=200px width=76%></img>
 <div id="banner">
 <div class="dropdown">
-  <button class="dropbtn"><a href="index.html">回到主页</a></button>
+  <button class="dropbtn" onclick="f1('index.html')"><a href="index.html">回到主页</a></button>
 </div>
 <div class="dropdown">
-  <button class="dropbtn"><a href="chuangkou.html">窗口服务</a></button>
+  <button class="dropbtn" onclick="f1('chuangkou.html')"><a href="chuangkou.html">窗口服务</a></button>
 </div>
 <div class="dropdown">
-  <button class="dropbtn"><a href="zizhu.html">自助服务</a></button>
-  <div class="dropdown-content">
-    <a href="#"> 1</a>
-    <a href="#"> 2</a>
-    <a href="#"> 3</a>
-  </div>
+  <button class="dropbtn" onclick="f1('zizhu.html')"><a href="zizhu.html">自助服务</a></button>
 </div>
 <div class="dropdown">
-  <button class="dropbtn"><a href="chaxun.html">查询服务</a></button>
-  <div class="dropdown-content">
-    <a href="#"> 1</a>
-    <a href="#"> 2</a>
-    <a href="#"> 3</a>
-  </div>
+  <button class="dropbtn" onclick="f1('chaxun.html')"><a href="chaxun.html">查询服务</a></button>
 </div>
 <div class="dropdown">
-  <button class="dropbtn"><a href="about.html">关于我们</a></button>
+  <button class="dropbtn" onclick="f1('about.html')"><a href="about.html">关于我们</a></button>
 </div>
 </div>
 <br>
 	<div id="container">
-		
-		
 			<div id="par">
 				<br>
 				<br>
 				<h1>校园卡服务</h1><br>
 				<hr style="border:3px dotted #000 "/>
 				<br>
-				<p>现代教育技术中心服务窗口主要提供校园一卡通补办卡、挂失、解挂、余额和消费流水查询、修改查询和消费密码、冻结解冻、校园卡银行卡关联、门禁、图书、就医等相关卡事务咨询。大厅设置圈存机供学生进行银行卡校园卡转账、卡账户电子账户转账、卡挂失、余额和消费流水查询、修改查询和消费密码和消费限额。
+				<p align=left>现代教育技术中心服务窗口主要提供校园一卡通补办卡、挂失、解挂、余额和消费流水查询、修改查询和消费密码、冻结解冻、校园卡银行卡关联、门禁、图书、就医等相关卡事务咨询。大厅设置圈存机供学生进行银行卡校园卡转账、卡账户电子账户转账、卡挂失、余额和消费流水查询、修改查询和消费密码和消费限额。
 </p>
 				<br><br><br><p>负责老师：钱存晶</p>
 				<p>联系电话：13667183077</p>
@@ -52,15 +40,22 @@
 				<p>周二、周四上午：8:00-11:40  14:30-18:00(春季)</p>
 				<p>下午：8:00-11:40  14:00-17:40(秋季)</p>
 			</div>
-	
-		
+
 	</div>
-	
+	<br>
 <div id="footer" style="padding:10px 10px;">
-   
-    <h4 >版权所有：华中农业大学学生事务大厅  技术支持：沸点工作室  <a href="__APP__/Admin/Login/index">管理</a>   </h4>
+   <h4 >版权所有：华中农业大学学生事务大厅  技术支持：沸点工作室  <a href="__APP__/Admin/Login/index">管理</a>   </h4>
 </div>
 
-
+<script>
+	$(function(){
+		// 初始化轮播
+			$("#myCarousel").carousel('cycle');
+	});
+	function f1(url){
+	  //alert(url);
+	  window.location.href=url;
+	}
+</script>
 </body>
 </html>

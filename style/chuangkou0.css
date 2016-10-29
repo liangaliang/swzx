@@ -1,4 +1,4 @@
-body {
+﻿body {
 	text-align:center;
 }
 *{
@@ -15,34 +15,30 @@ ul{
 a{
 	text-decoration: none;
 }
-font{
-	margin:10px 0 0 20px;
-	color:#00dd00;
-	font-size:30px;
-	font-style:italic;
-}
-#banner{
-	width:70%;
-	/*border:1px solid #000000;*/
-	padding:0px 0px 0px 30px;
-	background-color:#67BA42;
-	width: 76%;
-    margin: 0px auto 0px auto;
-    height: 45px;
-}
 nav{
 	float:bottom;
 	font-size : 28px;	
 }
-#container {
+#banner{
+	/*border:1px solid #000000;*/
 	padding:0px 0px 0px 0px;
-	background-color:#F4F2EC;
+	background-color:#67BA42;
 	width: 76%;
     margin: 0px auto 0px auto;
-    height: 4090px;
+    height: 45px;
+	font-size:45px;	
 }
+
+#container {
+	padding:0px 0px 0px 0px;
+	background-color: #F4F2EC;
+	width: 76%;
+    margin: 0px auto 0px auto;
+    height:1060px;
+}
+
 #footer{
-	width:76%;
+	width:75%;
 	/*border:1px solid #000000;*/
 	padding:0px 0px 0px 30px;
 	background-color:#67BA42;

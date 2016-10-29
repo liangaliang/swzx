@@ -20,42 +20,15 @@ a{
 	/*border:1px solid #000000;*/
 	padding:0px 0px 0px 30px;
 	background-color:#67BA42;
-	width: 74%;
+	width: 73.6%;
     margin: 0px auto 0px auto;
-    height: 65px;
+    height: 45px;
 	text-align:center;
 }
-/* 下拉按钮样式 */
-.dropbtn {
-    background-color: #F4F2EC;
-    color: white;
-    padding: 24%;
-    font-size: 15px;
-	height:30px;
-    border: none;
-    cursor: pointer;
+nav{
+	float:bottom;
+	font-size : 28px;	
 }
-
-/* 容器 <div> - 需要定位下拉内容 */
-.dropdown {
-    position: relative;
-    display: inline-block;
-	
-}
-
-/* 下拉内容 (默认隐藏) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #F4F2EC;
-    min-width: 100%;
-    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
-}
-
-/* 修改按钮的背景颜色 */
-.dropdown:hover .dropbtn {
-    background-color: white;
-} 
 #container {
 	padding:0px 0px 0px 0px;
 	/*background-color:#595243;*/
